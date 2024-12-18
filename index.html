@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font changing in nav bar using google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yuji+Mai&display=swap"
+        rel="stylesheet">
+    <!-- icon appear in browsing bar -->
+    <link rel="icon"
+        href="https://png.pngtree.com/png-vector/20190228/ourmid/pngtree-vector-portfolio-icon-png-image_711172.jpg">
+    <!-- common link to use icon need for to take icon to appear like contact icon in annas profile need fontawesomecdn middle click to download -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- parent divinte akath venam oro bhagavum assign cheyan -->
+    <div class="container">
+        <div class="nav">
+            <img src="./asset/person.jpg" alt="">
+            <!-- unordered list -->
+            <ul>
+                <li><a href="#home" class="link">HOME</li></a>
+                <li><a href="#about" class="link">ABOUT</li></a>
+                <li><a href="#skill" class="link">SKILLS</li></a>
+                <li><a href="#contact" class="link">CONTACT</li></a>
+            </ul>
+
+
+        </div>
+        <!-- making left part of the home in this div -->
+        <!-- to make part home about we use section for readability -->
+
+        <section id="home">
+            <div class="body">
+                <h1 style="font-size: 60px;font-weight: 600;">I'm Ana<span style="color: yellow;">Steel</span> </h1>
+                <p>This is my official portfolio website to describe all<br> Details and work experience in Web
+                    Developmet</p>
+                <!-- target use to run the pdf in other page -->
+                <a href="./asset/dummy.pdf" target="_blank">Download CV</a>
+            </div>
+            <!-- common property apply cheyan imagegroup -->
+            <!-- id different inorder to hover girl image -->
+            <!-- making right part of the home page  -->
+            <div class="images">
+
+                <img src="./asset/shapepng.png" alt="" class="Imagegroup" id="shape">
+                <img src="./asset/girlpng.png" alt="" class="Imagegroup" id="girl">
+
+            </div>
+        </section>
+        <!-- section oru id paranjh kodukanam -->
+        <section id="about">
+            <div class="heading">
+                <h1>About me</h1>
+                <h4 style="color: rgb(0, 4, 0);">Introduction</h4>
+            </div>
+            <!-- for image in thecontainer -->
+            <!-- display grid use properly arrange image and content -->
+            <div class="about_container">
+                <div class="about_img">
+                    <img src="./asset/three person.jpg" alt="">
+                </div>
+
+                <div class="about_content">
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br>
+                        Nobis id laudantium obcaecati eos, eaque nostrum velit blanditiis <br>
+                        necessitatibus ratione eligendi quasi aliquam a nesciunt similique. <br>
+                        Ratione fuga magni enim cupiditate? <br>
+                    </p>
+                    <!-- need for to take icon to appear like contact icon in annas profile need fontawesome middle click to download -->
+                    <!-- <i class="fa-solid fa-user"></i> -->
+
+
+                    <div class="information">
+                        <div class="info_box">
+                            <!-- i/span all are inline tag  nere thanne varum-->
+                            <i class="fa-solid fa-user"></i>
+                            <span>Ana Steel</span>
+                        </div>
+                        <div class="info_box">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>987857777</span>
+
+                        </div>
+                        <div class="info_box">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>annasteel@gmail.com</span>
+
+                        </div>
+                        <div class="info_box">
+                            <i class="fa-brands fa-github"></i>
+                            <span>www.github/Anasteel</span>
+
+                        </div>
+
+                    </div>
+        </section>
+        <!-- this is for skill section -->
+        <section id="skill">
+            <div class="heading">
+                <h1>Skills</h1>
+                <p style="color:green">My Skills</p>
+
+            </div>
+            <div class="skill-container">
+                <div class="progress">
+                    <div class="bar-container">
+                        <h3>HTML</h3>
+                        <span>95%</span>
+                        <div class="bar"></div>
+                        <div class="bar html-bar"></div>
+                        <!-- bar property will get to bar html bar -->
+
+                    </div>
+                    <div class="bar-container">
+                        <h3>JAVA</h3>
+                        <span>80%</span>
+                        <div class="bar"></div>
+                        <div class="bar java-bar"></div>
+                        <!-- bar property will get to bar html bar -->
+
+                    </div>
+                    <div class="bar-container">
+                        <h3>REACT</h3>
+                        <span>75%</span>
+                        <div class="bar"></div>
+                        <div class="bar react-bar"></div>
+                        <!-- bar property will get to bar html bar -->
+
+                    </div>
+                    <div class="bar-container">
+                        <h3>PYTHON</h3>
+                        <span>65%</span>
+                        <div class="bar"></div>
+                        <div class="bar python-bar"></div>
+                        <!-- bar property will get to bar html bar -->
+
+                    </div>
+                </div>
+                <div class="skill-image">
+                    <img src="./asset/gadgets.jpg" alt="">
+                </div>
+            </div>
+
+        </section>
+
+        <!-- section for contact  -->
+
+        <section id="contact">
+            <!-- class provide for heading for separate styling-->
+            <div class="heading">
+                <h1 style="padding-bottom: 20px;">CONTACT</h1>
+                <span style="color: rgb(1, 10, 1);">MY CONTACTS</span>
+            </div>
+            <!-- class provide for icon-set headingnte thazhathek iraki style cheyan ee class ie icon-set also can style icon-set akathullath -->
+
+            <div class="icon-set">
+                <div class="icon">
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+
+                </div>
+                <div class="icon1">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+
+                </div>
+
+                <div class="icon">
+                    <a href=""> <i class="fa-brands fa-facebook"></i></a>
+
+                </div>
+                <div class="icon">
+                    <a href=""> <i class="fa-brands fa-github"></i></a>
+
+                </div>
+                <div class="icon">
+                    <a href=""><i class="fa-solid fa-link"></i></a>
+
+                </div>
+            </div>
+
+            <footer>
+                <p id="footer">&copy;My portfolio design 2024, All rights reserved Ana Steel</p>
+            </footer>
+
+
+
+
+
+
+    </div>
+    </section>
+    </div>
+</body>
+
+</html>

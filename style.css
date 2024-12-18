@@ -1,0 +1,333 @@
+/* (* is an universal selector as it applicable global style to an fully html page */
+
+*
+{
+   padding:0px; 
+   margin: 0px;
+   /* styling font of nav bar over here  like home about font using google fonts */
+   font-family: "Roboto", sans-serif;
+   
+  
+   
+}
+
+.container
+{
+    width:100%;
+    position:relative;
+    /* we can change lastly the image height upto screen */
+    height:100vh;
+
+}
+.nav
+{
+    width:85%;
+    /* image and nav bar distance adjusting with flex in index page */
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+
+/* use inline proprty to style nav bar */
+ ul li{
+    margin-top: 20px;
+    /*  to arrange the nav bars like home about in an straight line */
+    display:inline;
+    margin: 10px 25px;
+}
+
+.link
+{
+    font-size:20px;
+    text-decoration: none;
+    color:black;
+    
+}
+/* its an additional feature making more attractive bar like navbar  */
+.link:hover{
+    color: blueviolet;
+    
+}
+
+.body
+{
+    margin-left: 8%;
+    margin-top:10%;
+}
+
+.body p{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom:40px ;
+}
+/* to make download cv link in round shape */
+.body a{
+    /* text decoration use to avoid underline of link */
+
+    text-decoration: none;
+    background-color: black;
+    color: antiquewhite;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.images
+{
+    width: 45%;
+    height:80%;
+    /* while using postion: absolute we have to use position :relative in container ie parent div container */
+    position: absolute;
+    /* absolute koduthal right top paranjh kodukanam */
+    right: 30px;
+    top: 200px;
+    background-color: white;
+}
+
+/* imagine ullil ketanam so we provide imagegroup */
+
+.Imagegroup
+{
+    position:absolute;
+    height:100%;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%);
+    transition: bottom 1s,left 2s;
+}
+/* rand imagilum girl leftil maranam  bottom thinnum maranam girl */
+.images:hover #shape{
+    bottom: 70px;
+}
+/* # indicating unique id */
+
+.images:hover #girl {
+    left: 40%;
+}
+
+
+
+.heading{
+    margin-top: 20px;
+    text-align: center;
+    /* margin bottom used to thazhek nikkan */
+    margin-bottom: 30px;
+    font-size:20px;
+}
+
+
+.about_container{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+
+}
+.about_content p
+{
+   font-size: 18px; 
+}
+
+#about
+{
+    margin: 20% 8% 0px 8%;
+    margin-top: 300px;
+}
+
+.information{
+    margin-top: 20px;
+}
+
+.info_box
+{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+/* call symbol athinte content idaykulla space */
+.info_box span{
+    margin-left: 20px;
+}
+
+
+
+/* flex used in contacts to make it centre if justify-content horizontantally align items vertically orumich koduthal nadukayit vannolum */
+
+.icon-set
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /* margin top headinnn content kurach thazhathek irakkam content */
+    margin-top: 3px;
+   
+
+}
+
+.icon{
+
+    height:50px;
+    width:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+     /* orange  vattam round aayit varan aayit iconil my contcts */
+    border-radius: 50%;
+}
+.icon1{
+
+    height:50px;
+    width:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+     /* orange  vattam round aayit varan aayit iconil my contcts */
+    border-radius: 50%;
+    
+}
+
+
+.icon1 i
+{
+    font-size: 30px;
+    color: rgb(179, 14, 115);
+}
+
+
+.icon i
+{
+    font-size: 30px;
+    color: black;
+}
+
+/* hover use to make change only after we can see mouse click */
+.icon:hover 
+{
+    /* it is used to mixture color use background-image  animation only work with keyframe*/
+background-image: linear-gradient(red,blue);
+animation:shake 0.75s;
+}
+
+
+
+.icon1:hover
+{
+    background-image: linear-gradient(white,purple);
+}
+
+@keyframes shake {
+    10%
+    {
+        transform: rotate(15deg);
+    }
+    20%
+    {
+        transform: rotate(-15deg);
+    }
+    30%
+    {
+        transform: rotate(15deg) ;
+
+    }
+    40%
+    {
+        transform:rotate(-15deg) ;
+    }
+}
+
+
+
+#footer
+{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    margin: 40px;
+}
+
+
+.heading p{
+    margin-top: 1%;
+}
+
+#skill
+{
+    margin:8% 8% 0px 8%;
+}
+.skill-container
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 50px;
+    margin-top: 4%;
+    
+}
+ 
+
+.bar-container
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.bar-container h3,span{
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 35px;
+    
+
+}
+
+/* picture oppam graph varan
+ */
+ .progress
+ {
+    margin-top:10%;
+ }
+
+.bar
+{
+    width:100%;
+    height: 8px;
+    background-color: black;
+    /* position absolute aakan position relative kudit kodukanam */
+    position: absolute;  
+    bottom: 0px;
+    
+}
+
+.html-bar
+{
+    width: 95%;
+    background-color: orange;
+    
+
+}
+
+.java-bar
+{
+    width:80%;
+    background-color: orange;
+}
+.react-bar
+{
+    width:75%;
+    background-color: orange;
+}
+.python-bar
+{
+    width:65%;
+    background-color: orange;
+}
+
+
+

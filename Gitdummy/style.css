@@ -1,0 +1,175 @@
+*
+{
+        font-family: "Poiret One", sans-serif;
+     
+        padding: 0px; 
+        margin: 0px;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:100px;
+   
+    
+    
+    
+
+
+}
+
+/* pucha centre cheyan */
+.icon i
+{
+    
+    
+    font-size: 80px;
+    display:flex;
+    align-items: center;
+    justify-content: center ;
+
+}
+
+
+/* ith sign into github center cheyan */
+.icon span
+
+{
+
+    
+    display:flex;
+    align-items: center;
+    justify-content: center ;
+    font-size: 30px;
+    margin-bottom: 10%;
+    /* text-align: center; */
+
+}
+
+
+
+#body
+{
+  
+    width: 300px;
+    height: 250px;
+    background-color: beige;
+  
+    padding:5%; 
+    font-size: 20;
+    border:1 px solid blue;
+    border-radius: 5px;
+    
+}
+
+.text{
+
+    /* margin-left: 20px;
+    margin-top: 5px; */
+    width: 100%;
+    height:25px;
+      /* display: flex;
+      flex:left; */
+    border: 1px solid black;
+    border-radius: 1px;
+}
+
+.pass
+{
+    display:inline;
+    padding: bottom;
+
+}
+
+
+
+
+  
+  /* Styling for the last link */
+  #content2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust spacing between the button and the link */
+  }
+  
+  .pass1
+  {
+      display:inline;
+      padding: bottom;
+  
+  }
+
+  /* .bodybox{
+    padding:10px;
+    border: 1px solid;
+    border-radius: 3%;
+
+
+  } */
+
+  button
+  {
+    margin-top: 30px;
+    height:30 px;
+    width: 270px;
+    background-color: green;
+    color:white;
+    padding:10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+
+  button:hover
+  {
+    background-color: lightgreen;
+  }
+
+
+  .pass1
+  {
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    border: 2px solid rgb(92, 92, 87);
+    background-color: transparent;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 5%;    
+  }
+
+  ul li
+  {
+    display: inline;
+  }
+
+  .list{
+
+    width:800px;
+    height:50px;
+    position: absolute;
+    margin-right: 50px;
+    margin-top:10% ;
+    text-align: center;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
